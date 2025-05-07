@@ -1,0 +1,62 @@
+basic:
+    name: 'https://wyethnutritionsc.org'
+    environments:
+        production: 'https://wyethnutritionsc.org'
+        staging: 'https://152104-wnsc-glb.pantheonsite.io'
+        development: ''
+    breakpoints:
+        - 640
+        - 1024
+        - 1200
+    pages:
+        - /
+        - /user/login
+        - /brain-academy
+        - /gut-academy
+        - /hmo-academy
+        - /hmo
+        - /wnsc-conferences
+        - /events/workshop
+        - /events/wnsc-summit
+        - /events/world-prematurity-day
+        - /pre-term-nutrition
+        - /neonatology
+        - /gastroenterology
+        - /general-nutrition
+        - /public-health
+        - /allergies-immunity
+        - /e-learning-programs
+        - /e-learning-programs/pediatric-nutrition-practice-self-learning
+        - /newsletters
+        - /brain-academy/brain-development/bridging-gap-optimizing-early-neurodevelopment-through-nutrition
+        - /articles
+        - /hmo-academy/immunity/learning-lead-volume-3-2024-restoring-gut-health-c-section-infants-exploring
+        - /podcasts
+        - /myelin-matters/qa-myelin-matters-video-series-dr-jonas-hauser
+        - /resources/infographics/details/infographic-can-growing-milk-help-boost-childs-key-nutrients-growth
+        - /infographics
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    isolate: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
